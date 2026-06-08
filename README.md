@@ -26,6 +26,17 @@
 
 ---
 
+### 2. TWZRD Agent Intel
+- **Description**: Trust scoring for AI agents on Solana. Verify agent wallet reputation before x402 micropayments.
+- **Endpoint**: `https://intel.twzrd.xyz/mcp` (Streamable HTTP MCP)
+- **Discovery**: `https://intel.twzrd.xyz/mcp`
+- **Price**: Free: `score_agent`, `preflight_check` | Paid: `get_trust_receipt` (x402 micropayment)
+- **Capabilities**: `agent_trust_scoring`, `x402_verification`, `solana_wallet_identity`
+- **Status**: ✅ **Active & Verified**
+- **Config**: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
+---
+
 ## 🚀 Add Your Service
 Want to add your x402 agent service here?
 1. Ensure your service is public and supports x402.
